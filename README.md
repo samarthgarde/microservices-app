@@ -6,6 +6,7 @@ This project demonstrates a simple microservices setup using **Frontend**, **Bac
 
 ## Project Structure
 
+```bash
 microservices-app/
 │
 ├── backend/
@@ -20,6 +21,7 @@ microservices-app/
 │
 ├── nginx.conf # NGINX reverse proxy configuration
 └── README.md
+```
 
 ---
 
@@ -96,3 +98,7 @@ curl http://localhost:8081/api/message
 - **Proxy:** 8081
 
 - **Database:** 5432
+
+- **Frontend Access**-
+Local frontend:: http://localhost:8080
+Proxy with backend integration: http://localhost:8081
