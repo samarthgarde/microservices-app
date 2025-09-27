@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Frontend</title>
+  </head>
+  <body>
+    <h1>Frontend + Backend with Docker</h1>
+    <p id="message">Hello from backend!</p>
+
+    <script>
+  fetch("http://localhost:5000/api/message")  // backend port
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("message").innerText = data.messages.join(", ");
+    })
+    .catch(err => console.error(err));
+</script>
+
+  </body>
+</html>
