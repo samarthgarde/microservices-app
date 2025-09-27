@@ -10,16 +10,16 @@ This project demonstrates a simple microservices setup using **Frontend**, **Bac
 microservices-app/
 │
 ├── backend/
-│ ├── app.py # Flask backend app
-│ ├── requirements.txt # Python dependencies
-│ └── Dockerfile # Backend Dockerfile
+│ ├── app.py               # Flask backend app
+│ ├── requirements.txt     # Python dependencies
+│ └── Dockerfile           # Backend Dockerfile
 │
 ├── frontend/
-│ ├── index.html # Frontend HTML
+│ ├── index.html           # Frontend HTML
 │ ├── favicon.ico
-│ └── Dockerfile # Frontend Dockerfile
+│ └── Dockerfile           # Frontend Dockerfile
 │
-├── nginx.conf # NGINX reverse proxy configuration
+├── nginx.conf             # NGINX reverse proxy configuration
 └── README.md
 ```
 
