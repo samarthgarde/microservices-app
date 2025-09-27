@@ -101,4 +101,5 @@ curl http://localhost:8081/api/message
 
 - **Frontend Access**-
 Local frontend:: http://localhost:8080
+
 Proxy with backend integration: http://localhost:8081
